@@ -27,6 +27,10 @@ Builds a hashmap of AD NTLM hashes/usernames and iterates through a second list 
 
 .OUTPUTS
     Array of HashTables with properties "User", "Frequency", "Hash"
+    User                            Frequency Hash                            
+    ----                            --------- ----                            
+    {TestUser2, TestUser3} 			20129     H1H1H1H1H1H1H1H1H1H1H1H1H1H1H1H1
+    {TestUser1}                     1         H2H2H2H2H2H2H2H2H2H2H2H2H2H2H2H2
 
 .NOTES
     If you are seeing results for User truncated as {user1, user2, user3...} consider modifying the Preference variable $FormatEnumerationLimit (set to -1 for unlimited)
