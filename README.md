@@ -42,13 +42,4 @@ Builds a hashmap of AD NTLM hashes/usernames and iterates through a second list 
 .LINK
     https://github.com/DGG-IT/Match-ADHashes/
 
-
-.INSPIRATION / SOURCES / RELATED WORK
-    DSInternal Project https://www.dsinternals.com
-    Checkpot Project https://github.com/ryhanson/checkpot/
-
-.FUTURE WORK
-    Performance Testing, optimization
-    Other Languages (golang?)
-
 #>
