@@ -23,7 +23,7 @@ Builds a hashmap of AD NTLM hashes/usernames and iterates through a second list 
     Provide run-time of function in Verbose output
 
 .EXAMPLE
-    $results = Match-ADHashes -ADNTHashes C:\temp\adnthashes.txt -HashDictionary -C:\temp\Hashlist.txt 
+    $results = Match-ADHashes -ADNTHashes C:\temp\adnthashes.txt -HashDictionary C:\temp\Hashlist.txt 
 
 .OUTPUTS
     Array of HashTables with properties "User", "Frequency", "Hash"
